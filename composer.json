@@ -1,0 +1,30 @@
+{
+  "name": "sellgate/php-sdk",
+  "description": "PHP SDK for Sellgate API",
+  "type": "library",
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "payments",
+    "sellgate",
+    "checkout",
+    "payment",
+    "bitcoin",
+    "litecoin",
+    "ethereum",
+    "bitcoin-cash",
+    "cryptocurrencies",
+    "polygon",
+    "erc20"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sellgate\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  }
+}
