@@ -2,10 +2,8 @@
 
 require_once __DIR__ . "/src/sellgate.php";
 
-// Example usage
 $sellgate = new Sellgate();
 
-// Checkout example
 $checkoutData = [
     "title" => "Premium Subscription",
     "description" => "1-year access to all premium features",
@@ -25,7 +23,6 @@ $checkoutData = [
 $checkoutResult = $sellgate->createCheckout($checkoutData);
 print_r($checkoutResult);
 
-// Address example
 $addressData = [
     "crypto" => [
         "network" => "ETH",
