@@ -14,7 +14,7 @@ For further documentation, please refer to the [Sellgate docs](https://sellgate.
 ## Installation
 
 ```bash
-composer require sellgate
+composer require sellgate/php-sdk
 ```	
 
 ## Usage
