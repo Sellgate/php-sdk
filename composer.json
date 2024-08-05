@@ -2,6 +2,7 @@
   "name": "sellgate/php-sdk",
   "description": "PHP SDK for Sellgate API",
   "type": "library",
+  "license": "MIT",
   "keywords": [
     "crypto",
     "cryptocurrency",
