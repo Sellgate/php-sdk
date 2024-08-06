@@ -1,5 +1,7 @@
 <?php
 
+namespace Sellgate;
+
 class Sellgate {
     private function sendRequest($endpoint, $data) {
         $url = 'https://api.sellgate.io/v1' . $endpoint;

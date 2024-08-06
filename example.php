@@ -2,6 +2,8 @@
 
 require_once __DIR__ . "/src/sellgate.php";
 
+use \Sellgate\Sellgate;
+
 $sellgate = new Sellgate();
 
 $checkoutData = [

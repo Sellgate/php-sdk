@@ -24,6 +24,8 @@ composer require sellgate/php-sdk
 
 require_once __DIR__ . "vendor/autoload.php";
 
+use \Sellgate\Sellgate;
+
 $sellgate = new Sellgate();
 
 $checkoutData = [
